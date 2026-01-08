@@ -8,9 +8,21 @@ Desarrollar un sistema completo para administrar jugadores, pagos, roles y contr
 ## Tecnologías
 - Python
 - Git & GitHub
-- SQLite (más adelante)
-- FastAPI (más adelante)
-- Frontend web (más adelante)
+- SQLite (próximamente)
+- FastAPI (próximamente)
+- Frontend web (próximamente)
 
-## Estado del proyecto
-En desarrollo – desde fundamentos hasta sistema completo.
+## Progreso del proyecto
+- 🟢 Nivel 1 – Fundamentos (completado)
+- ⏳ Nivel 2 – Persistencia con archivos
+- ⏳ Nivel 3 – Sistema básico del club
+- ⏳ Nivel 4 – Programación orientada a objetos
+- ⏳ Nivel 5 – Base de datos
+- ⏳ Nivel 6 – API Backend
+- ⏳ Nivel 7 – Autenticación y roles
+- ⏳ Nivel 8 – Frontend web
+- ⏳ Nivel 9 – Sistema completo
+
+## Estado actual
+El proyecto se encuentra en desarrollo activo.
+Actualmente se completó el **Nivel 1 – Fundamentos**, donde se trabajó lógica básica en Python mediante un gestor de tareas en consola.
