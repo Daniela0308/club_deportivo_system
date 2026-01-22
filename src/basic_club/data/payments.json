@@ -1,0 +1,14 @@
+[
+    {
+        "id_pay": 1,
+        "id_player": 0,
+        "paid_month": "2026-01",
+        "payment_date": "2026-01-22"
+    },
+    {
+        "id_pay": 2,
+        "id_player": 0,
+        "paid_month": "2026-02",
+        "payment_date": "2026-01-22"
+    }
+]

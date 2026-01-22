@@ -15,7 +15,7 @@ Desarrollar un sistema completo para administrar jugadores, pagos, roles y contr
 ## Progreso del proyecto
 - 🟢 Nivel 1 – Fundamentos (completado)
 - 🟢 Nivel 2 – Persistencia con archivos
-- ⏳ Nivel 3 – Sistema básico del club
+- 🟢 Nivel 3 – Sistema básico del club
 - ⏳ Nivel 4 – Programación orientada a objetos
 - ⏳ Nivel 5 – Base de datos
 - ⏳ Nivel 6 – API Backend
@@ -27,6 +27,13 @@ Desarrollar un sistema completo para administrar jugadores, pagos, roles y contr
 El proyecto se encuentra en desarrollo activo.
 Actualmente se completaron los siguientes niveles:
 
-- **Nivel 1 – Fundamentos:** Se trabajó lógica básica en Python mediante un gestor de tareas en consola.
+- **Nivel 1 – Fundamentos:** Se trabajó lógica básica en Python mediante un gestor de tareas en consola, enfocado en el uso de variables, condicionales, ciclos y funciones.
 - **Nivel 2 – Persistencia con archivos:** Se implementó un gestor de contactos que permite agregar, ver, editar y eliminar jugadores, con persistencia de datos utilizando archivos JSON y funciones de carga y guardado (`load_data` y `save_data`).
+- **Nivel 3 – Sistema de gestión deportiva:** Se desarrolló un sistema completo para un club deportivo que permite:
+    -Gestionar jugadores (registro, búsqueda y cambio de estado).
+    -Registrar pagos de mensualidades por uno o varios meses.
+    -Mantener historial de pagos.
+    -Actualizar automáticamente el último mes pagado.
+    -Generar listados de jugadores con deuda. 
+El sistema utiliza listas y diccionarios, persistencia con archivos JSON y separación clara entre lógica del sistema (`club.py`) y presentación `main.py`).
 
