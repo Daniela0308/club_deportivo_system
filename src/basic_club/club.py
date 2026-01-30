@@ -43,7 +43,7 @@ cronológica mes a mes.
 import os
 import json
 from datetime import datetime
-from dateutil.relativedelta import relativedelta
+from dateutil import relativedelta
 
 
 

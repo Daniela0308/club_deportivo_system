@@ -6,6 +6,9 @@ venv/
 __pycache__/
 *.pyc
 
+# Datos del sistema (JSON, CSV, etc.)
+data/
+
 # Configuración del sistema
 .DS_Store
 
