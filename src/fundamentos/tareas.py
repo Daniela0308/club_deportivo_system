@@ -1,6 +1,6 @@
 from utils import (agregar_tareas, mostrar_tareas, completar_tarea, eliminar_tareas)
 
-list_tareas = []
+list_tareas:list = []
 
 #Menu de mi CRUD tareas
 while True:
