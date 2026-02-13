@@ -6,6 +6,7 @@ from .payment import Payment
 
 from club_poo.config.error_codes import (
     PLAYER_SUCCESSFULLY_REGISTERED,
+    PAYMENT_SUCCESSFULLY_REGISTERED,
     PLAYER_ALREADY_EXISTS, 
     PLAYER_NOT_FOUND,
     PLAYER_ACTIVE, 
@@ -129,12 +130,12 @@ class Club:
             self.__payment_id_counter += 1
 
             #Actualizamos el último mes pagado
-            player.update_last_month_paid(next_month.strftime("%Y-%m"))
+            self.update_last_month_paid_player(id_player, next_month.strftime("%Y-%m"))
 
             # mover el mes base
             last_month_date = next_month
 
-        return True, PLAYER_SUCCESSFULLY_REGISTERED
+        return True, PAYMENT_SUCCESSFULLY_REGISTERED
 
     def player_payments_history(self, id_player):
         """Genera el historial de pagos de un jugador usando si id"""
@@ -147,8 +148,6 @@ class Club:
             return False, PLAYER_INACTIVE     
         return True, None, [payment for payment in self.payments if payment.id_player == id_player]
     
-
-
     def recalculate_counters(self):
         """Recalcula los contadores basándose en los datos cargados"""
 

@@ -88,8 +88,9 @@ def main_menu(club, persistence_players, persistence_payments):
 
             case "7":
                 ok, data = list_of_debtors_service(club)
+                print("Jugadores con pagos pendientes")
                 for player in data:
-                    print(f"Jugadores con pagos pendientes: \n {player.to_dict()}")
+                    print(player.to_dict())
 
             case "8":
                 print("Saliendo del sistema...")
